@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/index.css" />
+    <link rel="icon" href="img/flower.jfif" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Raleway"
+    />
+    <title>My Blog</title>
+  </head>
+  <body>
+    <!-- Container -->
+    <div class="grid lg:grid-cols-4 gap-4 p-2">
+      <!-- Header -->
+      <header class="col-span-1 lg:col-span-4 text-center p-4">
+        <h1 class="uppercase pb-4 text-4xl font-bold">My Blog</h1>
+        <p class="text-base">
+          Welcome to blog of
+          <span class="bg-black text-white rounded p-1">Bui Duck</span>
+        </p>
+      </header>
+
+      <!-- Main Content -->
+      <main class="cols-span-1 lg:col-span-3">
+        <div class="main-content-1 shadow-md bg-white rounded">
+          <img src="img/woods.jpg" alt="img-1" class="w-full" />
+          <div class="container p-4">
+            <h3 class="uppercase font-bold text-xl">Title heading</h3>
+            <h5 class="my-3 text-lg">
+              Title description<span class="mx-1 opacity-60"
+                >April 7, 2014</span
+              >
+            </h5>
+            <p class="text-base">
+              Mauris neque quam, fermentum ut nisl vitae, convallis maximus
+              nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor
+              magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies
+              mi non congue ullam corper. Praesent tincidunt sed tellus ut
+              rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies
+              congue gravida diam non fringilla.
+            </p>
+            <button
+              class="px-6 py-2 border-solid border border-black mt-3 font-bold"
+            >
+              Read more
+            </button>
+          </div>
+        </div>
+
+        <div class="main-content-2 shadow-md bg-white mt-10 rounded">
+          <img src="img/bridge.jpg" alt="img-1" class="w-full" />
+          <div class="container p-4">
+            <h3 class="uppercase font-bold text-xl">Title heading</h3>
+            <h5 class="my-3 text-lg">
+              Title description<span class="mx-1 opacity-60 text-base"
+                >April 7, 2014</span
+              >
+            </h5>
+            <p class="text-base">
+              Mauris neque quam, fermentum ut nisl vitae, convallis maximus
+              nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor
+              magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies
+              mi non congue ullam corper. Praesent tincidunt sed tellus ut
+              rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies
+              congue gravida diam non fringilla.
+            </p>
+            <button
+              class="px-6 py-2 border-solid border border-black mt-3 font-bold"
+            >
+              Read more
+            </button>
+          </div>
+        </div>
+      </main>
+
+      <!-- Sidebar -->
+      <aside class="lg:col-span-1">
+        <!-- My Name -->
+        <div class="about-card shadow-md  bg-white">
+          <img src="img/avatar.jpg" alt="avatar" class="w-full" />
+          <div class="container p-4">
+            <h3 class="uppercase font-bold text-xl ">My name</h3>
+            <p class="text-base">
+              Just me, myself and I, exploring the universe of uknownment. I have
+              a heart of love and a interest of lorem ipsum and mauris neque quam
+              blog. I want to share my world with you.
+            </p>
+          </div>
+        </div>
+
+        <!-- Popular post -->
+        <div class="posts-content-2 mt-6 shadow-md">
+          <h3 class="text-xl bg-gray-300 p-4 ">Popular Posts</h3>
+          <ul class="divide-y divide-solid divide-slate-200">
+            <li class="p-5 w-full bg-white hover:bg-zinc-200">
+              <img
+                class="float-left mr-3"
+                src="img/workshop-1.jpg"
+                alt=""
+                style="width: 50px"
+              />
+              <span>Lorem</span><br />
+              <span>Sed mattis nunc </span>
+            </li>
+
+            <li class="p-5 w-full bg-white hover:bg-zinc-200">
+              <img
+                class="float-left mr-3"
+                src="img/workshop-2.jpg"
+                alt=""
+                style="width: 50px"
+              />
+              <span>Ipsum</span><br />
+              <span>Praes tinci sed </span>
+            </li>
+
+            <li class="p-5 w-full bg-white hover:bg-zinc-200">
+              <img
+                class="float-left mr-3"
+                src="img/workshop-3.jpg"
+                alt=""
+                style="width: 50px"
+              />
+              <span>Ipsum</span><br />
+              <span>Praes tinci sed </span>
+            </li>
+            <li class="p-5 w-full bg-white hover:bg-zinc-200">
+              <img
+                class="float-left mr-3"
+                src="img/workshop-4.jpg"
+                alt=""
+                style="width: 50px"
+              />
+              <span>Mingsum</span><br />
+              <span>Lorem ipsum dipsum </span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Tags -->
+        <div class="container mt-6 bg-white">
+          <h3 class="font-bold text-xl bg-gray-300 p-4" >Tags</h3>
+          <div class="container-span p-4 font-thin">
+            <span class="px-2 mb-3 bg-black text-white">Travel</span>
+            <span class="px-2 mb-3 bg-zinc-200 text-sm">New York</span>
+            <span class="px-2 mb-3 bg-zinc-200 text-sm">London</span>
+            <span class="px-2 mb-3 bg-zinc-200 text-sm">IKEA</span>
+            <span class="px-2 mb-3 bg-zinc-200 text-sm">NORWAY</span>
+            <span class="px-2 mb-3 bg-zinc-200 text-sm">DIY</span>
+            <span class="px-2 mb-3 bg-zinc-200 text-sm">Ideas</span>
+            <span class="px-2 mb-3 bg-zinc-200 text-sm">Baby</span>
+            <span class="px-2 mb-3 bg-zinc-200 text-sm">Family</span>
+            <span class="px-2 mb-3 bg-zinc-200 text-sm">News</span>
+            <span class="px-2 mb-3 bg-zinc-200 text-sm">Clothing</span>
+            <span class="px-2 mb-3 bg-zinc-200 text-sm">Shopping</span>
+            <span class="px-2 mb-3 bg-zinc-200 text-sm">Sports</span>
+            <span class="px-2 mb-3 bg-zinc-200 text-sm">Games</span>
+          </div>
+        </div>
+
+      </aside>
+
+      <!-- Footer -->
+      <footer class="col-span-1 lg:col-span-4 bg-stone-400 p-8 ">
+        <div class="container grid grid-cols-4 p-4 gap-1 lg:divide-x-4 lg:divide-solid lg:divide-zinc-300">
+          <div class="content-1 col-span-4 lg:col-span-1 px-2 md:col-span-2">
+            <h3 class="uppercase font-bold text-xl">About Me</h3>
+            <p class="text-base">
+              About me...
+            </p>
+          </div>
+
+          <div class="content-2 col-span-4 lg:col-span-1 md:col-span-2 px-2">
+            <h3 class="uppercase font-bold text-xl">About Contact</h3>
+            <p class="text-base">
+              About Contact...
+            </p>
+          </div>
+
+          <div class="content-3 col-span-4 lg:col-span-1 md:col-span-2 px-2">
+            <h3 class="uppercase font-bold text-xl">About Product</h3>
+            <p class="text-base">
+              About Product...
+            </p>
+            
+          </div>
+          <div class="content-4 col-span-4 lg:col-span-1 md:col-span-2 px-2">
+            <h3 class="uppercase font-bold text-xl">About Other</h3>
+            <p class="text-base">
+              About other...
+            </p>
+          </div>
+        </div>
+
+        <button class="bg-zinc-300 p-4">Previus</button>
+        <button class="bg-zinc-300 p-4">Next</button>
+        <h2 class="text-xl font-bold py-4 ">Author Bui Duck<i class='p-2 fas fa-carrot'></i></h2>
+        
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+// Tao ra cac bien tao nhanh cu phap, @mixin + ten {} , co the dat bien 
+@mixin text {
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    line-height: 12px;
+}
+
+
+@mixin bordered($width: 1px, $color: black) {
+    border: $width solid $color;
+}

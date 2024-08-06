@@ -1,0 +1,10 @@
+body {
+  background-color: #e2e8f0;
+  font-family: "Raleway", sans-serif;
+}
+body footer .content-wrapper {
+  background-image: url(../img/avatar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}/*# sourceMappingURL=index.css.map */

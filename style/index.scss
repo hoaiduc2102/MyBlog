@@ -1,0 +1,27 @@
+
+@import "color";
+@import "mixin";
+
+// mixin la 1 ham, cu phap @include + ten;
+// Tao file scss co dau "_" o dau ten
+// Import file + ten
+
+body {
+    background-color: #e2e8f0;
+    font-family: 'Raleway', sans-serif;
+    // header {}       
+    
+    footer {
+        .content-wrapper {
+            background-image: url(../img/avatar.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+    }
+    }
+
+
+
+
+
